@@ -3,28 +3,28 @@
 Un **escape game numérique** court et pédagogique sur le **thème de l'environnement**.  
 Objectif clair : **réactiver le Purificateur Global** en réparant **3 modules** (Eau, Forêt, Air) avant la fin du **compte à rebours**.
 
-## 🎮 Démo locale
+## Démo locale
 ```bash
 npm install
 npm run dev
 ```
 
-## 🚀 Build & déploiement
+## Build & déploiement
 - **Netlify / Vercel** : importer le repo, commande de build `npm run build`, dossier `dist`.
 - **GitHub Pages** : build, puis servir `dist/` avec un provider statique ou utiliser une action de déploiement.
 - **Vite** : aucune variable d'environnement requise.
 
-## 🧩 Gameplay (résumé)
+## Gameplay (résumé)
 - **Temps** : 40 minutes.
 - **3 salles** : Eau (microplastiques), Forêt (photosynthèse), Air (CO₂).
 - **Coop locale** optionnelle (indices/partage d'écran). Le multijoueur réseau peut être ajouté plus tard (Socket.IO).
 
-## 🛠️ Stack
+## Stack
 - **Vite + React 18**
 - **Tailwind CSS**
 - Accessibilité (contrastes élevés, focus visible, clavier OK).
 
-## 📁 Structure
+## Structure
 ```
 operation-terre-pure/
 ├── src/
@@ -50,9 +50,6 @@ operation-terre-pure/
 └── vite.config.js
 ```
 
-## 🔒 Données & sécurité
-- Aucune donnée personnelle stockée.
-- État de partie en mémoire locale du navigateur (localStorage).
 
 ## 📚 Licence
 MIT
